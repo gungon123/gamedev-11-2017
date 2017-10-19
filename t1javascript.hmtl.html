@@ -1,0 +1,12 @@
+<h2 align=center> Javascript by jim <br>
+enter how you are feeling <input id="mytext01" type=text placeholder="sexy">
+
+<div id="mydiv01" style="font-size:40px;color:pink;">....</div>
+
+<input type=button value="then clock me in the glock" onClick="{
+if (document.getElementById('myText01').value == '') {alert('enter a feeling')}
+else {
+document.getElementById('mydiv01').innerHTML =
+'so you are feeling '+document.getElementById('mytext01').value + '?'
+}
+}" >
