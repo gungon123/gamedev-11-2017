@@ -132,7 +132,7 @@ if (myCollide('myA', 'myF')  == true) {
 
 if (   (document.getElementById('myC').style.left   == '-200px') && (document.getElementById('myD').style.left   == '-200px') && (document.getElementById('myE').style.left   == '-200px') && (document.getElementById('myF').style.left   == '-200px')          ){
        alert('you win')
-       location = 'http://www.google.ca'          
+       location = 'level 2'          
    }
 
 
